@@ -1,0 +1,35 @@
+/* 样式文件 - style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue; /* 添加背景颜色 */
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #555;
+}
+
